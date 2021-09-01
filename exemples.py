@@ -1,0 +1,32 @@
+import latin2french
+
+from pprint import pprint
+pprint(latin2french.rules)
+
+latin2french.Word("b\u0115\u0301ll\u014ds", "Latin").transform(target_language="dd").get_word()
+latin2french.Word("b\u0115\u0301n\u0115", "Latin").transform(target_language="dd").get_word()
+latin2french.Word("b\u014f\u0301v\u0115", "Latin").transform(target_language="dd").get_word()
+latin2french.Word("c\u0101\u0301m\u0115ra", "Latin").transform(target_language="dd").get_word()
+latin2french.Word("cant\u0101\u0301t\u016D", "Latin").transform(target_language="dd").get_word()
+latin2french.Word("c\u0101\u0301p\u016D", "Latin").transform(target_language="dd").get_word()
+latin2french.Word("c\u0101\u0301r\u016D", "Latin").transform(target_language="dd").get_word()
+latin2french.Word("c\u014f\u0301m\u012dte", "Latin").transform(target_language="dd").get_word()
+latin2french.Word("c\u014f\u0301mp\u016Dtat", "Latin").transform(target_language="dd").get_word()
+latin2french.Word("fa\u0301ct\u016D", "Latin").transform(target_language="dd").get_word()
+latin2french.Word("f\u012d\u0301de", "Latin").transform(target_language="dd").get_word()
+latin2french.Word("f\u012b\u0301l\u012d\u016Ds", "Latin").transform(target_language="dd").get_word()
+latin2french.Word("f\u014f\u0301l\u012d\u0103", "Latin").transform(target_language="dd").get_word()
+latin2french.Word("ho\u0301sp\u012dte", "Latin").transform(target_language="dd").get_word()
+latin2french.Word("l\u0115\u0301ct\u016D", "Latin").transform(target_language="dd").get_word()
+latin2french.Word("ma\u0301los", "Latin").transform(target_language="dd").get_word()
+latin2french.Word("merc\u0113\u0301de", "Latin").transform(target_language="dd").get_word()
+latin2french.Word("n\u0115p\u014d\u0301te", "Latin").transform(target_language="dd").get_word()
+latin2french.Word("pa\u0301tre", "Latin").transform(target_language="dd").get_word()
+latin2french.Word("p\u0115\u0301de", "Latin").transform(target_language="dd").get_word()
+latin2french.Word("pla\u0301n\u016D", "Latin").transform(target_language="dd").get_word()
+latin2french.Word("p\u014f\u0301tet", "Latin").transform(target_language="dd").get_word()
+latin2french.Word("pr\u0103\u0301t\u016D", "Latin").transform(target_language="dd").get_word()
+
+latin2french.Word("v\u012b\u0301ta", "Latin").transform(target_language="dd").get_word()
+latin2french.Word("ca\u0301pra", "Latin").transform(target_language="dd").get_word()
+latin2french.Word("\u0103qu\u0103\u0301r\u012d\u016Dm", "Latin").transform(target_language="dd").get_word()
