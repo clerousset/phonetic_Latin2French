@@ -11,3 +11,5 @@ A Python module reproducing the phonetic transformation rules from Latin to Fren
 At the moment around 15 % of the rules are still missing. 
 
 This projet aims to grow by adding languages. All the indo-european languages could be connected this way
+
+Keywords : Latin, French, phonetic transformation, indo-european languages, diachronic linguistics
